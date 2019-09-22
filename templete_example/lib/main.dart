@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:templete_example/colors.dart';
-import 'package:templete_example/navigation/routes.dart';
+
+import 'colors.dart';
+import 'navigation/routes.dart';
 
 void main() => runApp(MyApp());
 

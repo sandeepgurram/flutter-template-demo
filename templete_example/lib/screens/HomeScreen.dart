@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:templete_example/colors.dart';
+import 'package:template_example/navigation/NavigationHelper.dart';
+
+import '../colors.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -9,6 +11,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: primaryColor,
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.navigate_next),
+        onPressed: (){launchScreenWithTemplate(context);},
       ),
       body: SafeArea(
         child: Column(
